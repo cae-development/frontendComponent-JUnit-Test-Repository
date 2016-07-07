@@ -51,11 +51,13 @@ Y({
   },
   sourceDir: "http://y-js.org/bower_components",
   share: {
-    2:'Text' 
+    2:'Text',
+    button1:'Text' 
   }
 }).then(function (y) {
   window.yTextarea = y
   y.share.2.bind(document.getElementById('2'))
+  y.share.button1.bind(document.getElementById('button1'))
  
 })
 
