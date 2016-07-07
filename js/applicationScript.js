@@ -40,7 +40,7 @@ var init = function() {
 
   };
 
-  client = new Las2peerWidgetLibrary("http://localhost:8080/", iwcCallback);
+  client = new Las2peerWidgetLibrary("http://localhost:8081/", iwcCallback);
 
 
 
