@@ -53,7 +53,14 @@ var test = function(){
 
 //end variable declaration
 
-
+  client.sendRequest("GET", "test", "", "", {}, false,
+  function(data, type) {
+    console.log(data);
+  },
+  function(error) {
+    console.log(error);
+  });
+  
   //Additional own javascript
 
 }
