@@ -50,11 +50,12 @@ var init = function() {
 var test = function(){
 
 //start variable declaration
+   var myReturn = null;
 //end variable declaration
 
 
   //Additional own javascript
-
+ return myReturn;
 }
 
 
