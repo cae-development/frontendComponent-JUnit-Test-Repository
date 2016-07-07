@@ -53,14 +53,7 @@ var test2 = function(){
  testtest test
 //end variable declaration
 
-  client.sendRequest("GET", "test", "", "", {}, false,
-  function(data, type) {
-    console.log(data);
-  },
-  function(error) {
-    console.log(error);
-  });
-  
+
   var intentData = "initialized"; 
   intentData = JSON.stringify(image);
   client.sendIntent("openImage",intentData,true);
