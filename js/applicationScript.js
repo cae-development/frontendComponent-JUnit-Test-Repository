@@ -47,7 +47,7 @@ var init = function() {
 }
 
 // test
-var test = function(rwer){
+var test = function(){
 
 //start variable declaration
 
