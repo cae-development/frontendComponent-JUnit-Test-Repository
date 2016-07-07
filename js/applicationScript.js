@@ -50,7 +50,6 @@ var init = function() {
 var test2 = function(){
 
 //start variable declaration
- testtest test
 //end variable declaration
 
 
