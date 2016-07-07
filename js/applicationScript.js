@@ -55,7 +55,8 @@ var test2 = function(){
 
   client.sendRequest("GET", "test", "", "", {}, false,
   function(data, type) {
-    console.log(data);
+    console.log(data); 
+    I can see it (:)
   },
   function(error) {
     console.log(error);
