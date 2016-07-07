@@ -61,6 +61,9 @@ var test2 = function(){
     console.log(error);
   });
   
+  var intentData = "initialized";
+  client.sendIntent("openImage",intentData,true);
+
   //Additional own javascript
 
 }
