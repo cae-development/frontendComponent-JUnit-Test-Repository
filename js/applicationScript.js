@@ -46,8 +46,8 @@ var init = function() {
 
 }
 
-// test2
-var test2 = function(){
+// test
+var test = function(){
 
 //start variable declaration
 //end variable declaration
