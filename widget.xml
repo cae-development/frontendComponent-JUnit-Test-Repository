@@ -80,7 +80,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <!-- inter widget communication library import -->
   <script type="text/javascript" src="http://cae-development.github.io/frontendComponent-JUnit-Test-Repository/js/lib/iwc.js"></script>
   <!-- additional widget specific imports (put your own imports here as well) -->
-
+  <script src="http://cae-development.github.io/frontendComponent-JUnit-Test-Repository/js/lib/y.js"></script>
+  <script src="http://cae-development.github.io/frontendComponent-JUnit-Test-Repository/js/lib/y-array.js"></script>
+  <script src="http://cae-development.github.io/frontendComponent-JUnit-Test-Repository/js/lib/y-text.js"></script>
+  <script src="http://cae-development.github.io/frontendComponent-JUnit-Test-Repository/js/lib/y-websockets-client.js"></script>  
+  <script src="http://cae-development.github.io/frontendComponent-JUnit-Test-Repository/js/lib/y-memory.js"></script>
 
   <!-- import the client library -->
   <script type="text/javascript" src="http://cae-development.github.io/frontendComponent-JUnit-Test-Repository/js/lib/las2peerWidgetLibrary.js"></script>
@@ -93,6 +97,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <!-- container for actual page content -->
   <div class="container" id="main-content">
 
+   <input id='2' > </input>
  
   </div>
 
