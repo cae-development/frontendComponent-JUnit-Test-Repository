@@ -53,7 +53,7 @@ var test = function(){
 //end variable declaration
 
 
-  //Additional own javascript
+//Additional own javascript
 
 }
 
